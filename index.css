@@ -1,0 +1,65 @@
+body{
+  margin:0px;
+  font-family: "Audiowide", sans-serif;
+}
+
+#text{
+  margin-left: 250px
+}
+
+#topHead{
+  background-color: black;
+  height: 10%;
+  width: 100%;
+  margin: 0px;
+  border: 10px outset blue;
+  position: fixed
+}
+
+#topHead li{
+  text-decoration: none;
+  display: inline;
+  float: left;
+  padding: 1%;
+}
+
+#topHead li a{
+  text-decoration: none;
+  font-family: "Geo", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+#topHead li a:hover{
+  color: grey;
+}
+
+#navBar{
+  height: 100%;
+  width: 16%;
+  position: fixed;
+  background-color: midnightblue;
+  padding-left: 10px;
+  margin: 0px;
+  border-right: 10px outset blue;
+  border-left: 10px outset blue;
+  margin-top: 86px;
+}
+
+#navBar li{
+  list-style: none;
+  font-family: "Geo", sans-serif;
+  padding-top:20px;
+  font-size: 25px;
+  color: white;
+}
+
+#navBar li a{
+  text-decoration: none;
+  font-family: "Geo", sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+#navBar li a:hover{
+  color: grey;
+}
